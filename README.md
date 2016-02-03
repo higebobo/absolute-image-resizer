@@ -5,7 +5,7 @@
 Absolute Image Resizer is resizing image with absolute image size
 keeping aspect ratio for original image.
 
-Require Python 2.7 or Python 3.3
+Require Python 2.7 or Python 3.3 and Pillow
 
 ## Install
 
