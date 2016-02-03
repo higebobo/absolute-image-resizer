@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Absolute Image Resizer
 
 ## General
@@ -29,8 +28,3 @@ set output filename prefix above
 * 2016-02-03
 
     - First release
-
-=======
-# absolute-image-resizer
-resizing image absolute image size keeping aspect ratio
->>>>>>> origin/master
