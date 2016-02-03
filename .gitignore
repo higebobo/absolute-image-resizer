@@ -1,0 +1,9 @@
+*.hg*
+*.pyc
+*.bak
+*.orig
+*~
+image
+*.jpg
+__pycache__
+TODO.org
