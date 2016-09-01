@@ -28,7 +28,7 @@ def resize(obj, width, height, mode='RGB', algorithm=Image.ANTIALIAS):
     default_aspect = 1.0 * h / w
 
     resized = False    
-    if original_aspect == aspect:
+    if (original_aspect == aspect) and (w >= width):
         # same aspect
         if w > width:
             resized = True
@@ -53,7 +53,7 @@ def resize(obj, width, height, mode='RGB', algorithm=Image.ANTIALIAS):
         new_w = int(h*aspect)
         
         # adjust
-        new_aspect = 1.0 * new_w / h        
+        new_aspect = 1.0 * new_w / h
         if new_aspect > default_aspect:
             new_w -= 1
             
