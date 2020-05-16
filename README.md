@@ -19,7 +19,7 @@ resize image with width 640 pixel and height 480 pixcel (overwrite)
 
     $ python resize.py --width=640 --height=480 example.jpg
 
-set output filename with prefix to avoid overwriting
+set output filename with suffix to avoid overwriting
 
     $ python resize.py --width=640 --height=480 --suffix=_1 example.jpg
 
